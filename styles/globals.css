@@ -1,6 +1,8 @@
+/* @import url("https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 * {
   margin: 0;
@@ -17,8 +19,23 @@ i {
 body {
   font-family: "Sarabun", sans-serif;
   background-color: #fff;
+  color: #202124;
 }
 
 .shadow-search {
   box-shadow: 0 1px 1px 0 rgba(65, 69, 73, 0.3), 0 1px 3px 1px rgba(65, 69, 73, 0.15);
+}
+
+.shadow-note {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+input::placeholder, textarea::placeholder {
+  color: #53514c;
+}
+
+textarea.auto-resize {
+  resize: none;
+  overflow: hidden;
 }
