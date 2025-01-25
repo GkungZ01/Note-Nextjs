@@ -54,7 +54,7 @@ pnpm dev
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Project Structure
-
+```
 note-app/
 ├── app/
 │ ├── layout.tsx
@@ -66,7 +66,7 @@ note-app/
 │ └── globals.css
 ├── public/
 └── package.json
-
+```
 
 ## Features in Detail
 
@@ -84,14 +84,6 @@ note-app/
 - Mobile-friendly interface
 - Adaptive layout
 - Consistent experience across devices
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
